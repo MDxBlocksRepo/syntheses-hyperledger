@@ -3,9 +3,9 @@ Installation Steps
 
 git clone https://github.com/mdxblock/hyperledger
 
-cd hyperledger
-
 sudo su
+
+cd hyperledger
 
 chmod +x *.sh
 
@@ -13,6 +13,7 @@ chmod +x artifacts/channel/*.sh
 
 
 ./prerequisites.sh
+
 
 Start Duplication session
 
@@ -23,6 +24,12 @@ Add the following paths to /root/.bashrc
 export PATH=$PATH:/usr/local/go/bin
 
 export PATH=$PATH:<PATH OF >/fabric-samples/bin
+
+cd hyperledger
+
+
+
+
 
 nvm install v16.17.0
 
