@@ -3,6 +3,8 @@ Installation Steps
 
 git clone https://github.com/mdxblock/hyperledger
 
+cd hyperledger
+
 sudo su
 
 chmod +x *.sh
