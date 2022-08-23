@@ -37,10 +37,12 @@ go version go1.13.15 linux/amd64
  
  
 >docker version
+
 Client: Docker Engine - Community
  Version:           20.10.17
 
 >docker-compose version
+
 docker-compose version 1.17.1, build unknown
 
 cd hyperledger
