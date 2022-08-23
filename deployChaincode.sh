@@ -208,7 +208,7 @@ chaincodeInvoke() {
     #     --peerAddresses localhost:7051 \
     #     --tlsRootCertFiles $PEER0_ORG1_CA \
     #     --peerAddresses localhost:9051 --tlsRootCertFiles $PEER0_ORG2_CA \
-    #     -c '{"function": "createCar","Args":["Car-7779", "Audi", "R8", "Red", "Pavan"]}'
+    #     -c '{"function": "createCar","Args":["Car-7779", "Audi", "R8", "Red", "Wilson"]}'
 
     peer chaincode invoke -o localhost:7050 \
         --ordererTLSHostnameOverride orderer.example.com \
@@ -218,7 +218,7 @@ chaincodeInvoke() {
         --peerAddresses localhost:7051 \
         --tlsRootCertFiles $PEER0_ORG1_CA \
         --peerAddresses localhost:9051 --tlsRootCertFiles $PEER0_ORG2_CA \
-        -c '{"function": "createCar","Args":["Car-2", "Audi", "R8", "Red", "Pavan"]}'
+        -c '{"function": "createCar","Args":["Car-2", "Audi", "R8", "Red", "Johnson"]}'
 
     # Init ledger
     # peer chaincode invoke -o localhost:7050 \
