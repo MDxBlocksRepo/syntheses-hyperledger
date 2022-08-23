@@ -24,33 +24,30 @@ Start Duplication session
 
 sudo su
 
-cd hyperledger
-
 nvm install v16.17.0
 
 >node --version
  
 v16.17.0
 
- 
+
 >go version
  
 go version go1.13.15 linux/amd64
-
  
  
-#docker version
+>docker version
 Client: Docker Engine - Community
  Version:           20.10.17
 
-#docker-compose version
+>docker-compose version
 docker-compose version 1.17.1, build unknown
 
+cd hyperledger
 
 cd artifacts/channel
  
 ./create-artifacts.sh
-
 
 cd ../..
 ./start.sh
