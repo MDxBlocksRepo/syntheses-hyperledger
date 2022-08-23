@@ -14,16 +14,15 @@ chmod +x artifacts/channel/*.sh
 
 ./prerequisites.sh
 
-
-Start Duplication session
-
-sudo su
-
 Add the following paths to /root/.bashrc by selecting actual path of fabric-samples
 
 export PATH=$PATH:/usr/local/go/bin
 
 export PATH=$PATH:~USER/hyperledger/fabric-samples/bin
+
+Start Duplication session
+
+sudo su
 
 cd hyperledger
 
