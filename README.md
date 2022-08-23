@@ -19,17 +19,13 @@ Start Duplication session
 
 sudo su
 
-Add the following paths to /root/.bashrc
+Add the following paths to /root/.bashrc by selecting actual path of fabric-samples
 
 export PATH=$PATH:/usr/local/go/bin
 
-export PATH=$PATH:<PATH OF >/fabric-samples/bin
+export PATH=$PATH:~USER/hyperledger/fabric-samples/bin
 
 cd hyperledger
-
-
-
-
 
 nvm install v16.17.0
 
