@@ -5,7 +5,7 @@
 Installation Steps
 ------------------
 
-git clone https://github.com/mdxblock/hyperledger
+git clone https://github.com/MDxBlocksRepo/syntheses-hyperledger
 
 sudo su
 
