@@ -9,7 +9,7 @@ git clone https://github.com/MDxBlocksRepo/syntheses-hyperledger
 
 sudo su
 
-cd hyperledger
+cd syntheses-hyperledger
 
 chmod +x *.sh
 
@@ -22,7 +22,7 @@ Add the following paths to /root/.bashrc by selecting actual path of fabric-samp
 
 export PATH=$PATH:/usr/local/go/bin
 
-export PATH=$PATH:~USER/hyperledger/fabric-samples/bin
+export PATH=$PATH:~USER/syntheses-hyperledger/fabric-samples/bin
 
 Start Duplication session
 
