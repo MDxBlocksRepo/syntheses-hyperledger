@@ -49,7 +49,7 @@ Client: Docker Engine - Community
 
 docker-compose version 1.17.1, build unknown
 
-cd hyperledger
+cd syntheses-hyperledger
 
 cd artifacts/channel
  
